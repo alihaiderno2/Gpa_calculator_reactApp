@@ -13,7 +13,7 @@ export default function MainBodyCGPA(){
         setSemesters(semesters.filter((c)=>c.id !==id))
     }
     const updateSemester = (id,field,value) =>{
-        setSemesters(semesters.map((c)=>(c.id == id ? {...c,[field]:value}:c)),);
+        setSemesters(semesters.map((c)=>(c.id === id ? {...c,[field]:value}:c)),);
     }
     const totalCredits = semesters.reduce(
         (sum,c)=> sum + Number(c.credits||0),0,
