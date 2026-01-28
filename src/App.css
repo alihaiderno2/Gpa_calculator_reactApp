@@ -1,0 +1,23 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+h2, h5, .fw-bold {
+  font-weight: 600; /* Makes titles look like your screenshot */
+}
+.bg-primary {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+    width: 97px;
+    height: 28px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color:rgb(99, 102, 241) !important;
+    
+    
+}
