@@ -1,4 +1,5 @@
 import "./App.css";
+import Footer from "./components/Footer";
 import MainBody from "./components/MainBody";
 import MainBodyCGPA from "./components/MainBodyCGPA";
 import NavBar from "./components/NavBar";
@@ -13,6 +14,7 @@ function App() {
       <Route path="/" element={<MainBody/>}/>
       <Route path="/cgpa" element= {<MainBodyCGPA/>}/>
      </Routes>
+     <Footer/>
      
       
     </div>
